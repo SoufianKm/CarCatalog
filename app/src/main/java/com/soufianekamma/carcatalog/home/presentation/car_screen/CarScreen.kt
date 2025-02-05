@@ -12,6 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.soufianekamma.carcatalog.home.presentation.car_screen.components.CarCard
+import com.soufianekamma.carcatalog.home.presentation.util.components.MyTopAppBar
 
 @Composable
 fun CarScreen(modifier: Modifier = Modifier) {
@@ -22,7 +23,8 @@ fun CarScreen(modifier: Modifier = Modifier) {
 @Composable
 fun CarsList(state: CarViewState) {
     Scaffold(
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier.fillMaxSize(),
+        topBar = { MyTopAppBar(title = "Car Catalog") }
     ) { paddingValues ->
 
         LazyColumn(
