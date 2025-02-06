@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.soufianekamma.carcatalog.home.presentation.car_screen.components.CarCard
+import com.soufianekamma.carcatalog.home.presentation.util.components.LoadingDialog
 import com.soufianekamma.carcatalog.home.presentation.util.components.MyTopAppBar
 
 @Composable
@@ -32,6 +33,7 @@ fun CarScreen(viewModel: CarViewModel = hiltViewModel()) {
 @Composable
 fun CarsList(state: CarViewState) {
 
+    LoadingDialog(isLoading = state.isLoading)
     Scaffold(
         modifier = Modifier.fillMaxSize(),
         topBar = { MyTopAppBar(title = "Car Catalog") }) { paddingValues ->

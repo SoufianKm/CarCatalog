@@ -24,6 +24,9 @@ class CarViewModel @Inject constructor(
 
     private fun getCars() {
         viewModelScope.launch {
+            _state.update {
+                it.copy(isLoading = true)
+            }
             carRepository.getCars().onRight { cars ->
                 _state.update {
                     it.copy(
@@ -32,6 +35,9 @@ class CarViewModel @Inject constructor(
                 }
             }.onLeft { error ->
                 _state.update { it.copy(error = error.error.message) }
+            }
+            _state.update {
+                it.copy(isLoading = false)
             }
         }
     }
