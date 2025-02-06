@@ -24,10 +24,10 @@ class CarViewModel @Inject constructor(
         getCars()
     }
 
-    private fun getCars() {
+    fun getCars(isRefreshing: Boolean = false) {
         viewModelScope.launch {
             _state.update {
-                it.copy(isLoading = true)
+                it.copy(isLoading = !isRefreshing, isRefreshing = isRefreshing)
             }
             carRepository.getCars().onRight { cars ->
                 _state.update {
@@ -40,7 +40,7 @@ class CarViewModel @Inject constructor(
                 sendEvent(Event.Snackbar(error.error.message))
             }
             _state.update {
-                it.copy(isLoading = false)
+                it.copy(isLoading = false, isRefreshing = false)
             }
         }
     }
