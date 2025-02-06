@@ -6,8 +6,9 @@ import com.soufianekamma.carcatalog.home.data.remote.CarApi
 import com.soufianekamma.carcatalog.home.domain.model.Car
 import com.soufianekamma.carcatalog.home.domain.model.NetworkError
 import com.soufianekamma.carcatalog.home.domain.repository.CarRepository
+import javax.inject.Inject
 
-class CarRepositoryImpl constructor(
+class CarRepositoryImpl @Inject constructor(
     private val carApi: CarApi
 ) : CarRepository {
     override suspend fun getCars(): Either<NetworkError, List<Car>> {
