@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import com.bumptech.glide.integration.compose.GlideImage
 import com.bumptech.glide.integration.compose.placeholder
+import com.soufianekamma.carcatalog.R
 import com.soufianekamma.carcatalog.home.domain.model.Car
 
 @OptIn(ExperimentalGlideComposeApi::class)
@@ -46,7 +47,10 @@ fun CarCard(
                     .fillMaxSize()
                     .clip(RoundedCornerShape(10.dp)),
                 contentScale = ContentScale.FillBounds
-            )
+            ) {
+                it.error(placeholder(R.drawable.placeholder)).placeholder(R.drawable.placeholder)
+                    .load(car.imageUrl)
+            }
             Box(
                 modifier = modifier
                     .fillMaxSize()
