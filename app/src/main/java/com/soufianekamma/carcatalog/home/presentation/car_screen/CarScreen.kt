@@ -10,6 +10,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -22,21 +24,28 @@ import com.soufianekamma.carcatalog.home.presentation.util.components.LoadingDia
 import com.soufianekamma.carcatalog.home.presentation.util.components.MyTopAppBar
 
 @Composable
-fun CarScreen(viewModel: CarViewModel = hiltViewModel()) {
+fun CarScreen(
+    snackbarHostState: SnackbarHostState,
+    viewModel: CarViewModel = hiltViewModel()
+) {
 
     val state by viewModel.state.collectAsStateWithLifecycle()
-    CarsList(state = state)
+    CarsList(state = state, snackbarHostState)
 
 }
 
 
 @Composable
-fun CarsList(state: CarViewState) {
+fun CarsList(
+    state: CarViewState,
+    snackbarHostState: SnackbarHostState
+) {
 
     LoadingDialog(isLoading = state.isLoading)
     Scaffold(
         modifier = Modifier.fillMaxSize(),
-        topBar = { MyTopAppBar(title = "Car Catalog") }) { paddingValues ->
+        topBar = { MyTopAppBar(title = "Car Catalog") },
+        snackbarHost = { SnackbarHost(hostState = snackbarHostState) }) { paddingValues ->
 
         LazyColumn(
             modifier = Modifier

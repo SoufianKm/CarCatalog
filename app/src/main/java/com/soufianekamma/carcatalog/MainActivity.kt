@@ -7,13 +7,24 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LocalLifecycleOwner
+import androidx.lifecycle.repeatOnLifecycle
 import com.soufianekamma.carcatalog.home.presentation.car_screen.CarScreen
 import com.soufianekamma.carcatalog.ui.theme.CarCatalogTheme
+import com.soufianekamma.carcatalog.util.Event
+import com.soufianekamma.carcatalog.util.EventBus
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -22,7 +33,24 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CarCatalogTheme {
-                CarScreen()
+                val coroutineScope = rememberCoroutineScope()
+                val lifecycle = LocalLifecycleOwner.current.lifecycle
+                val snackbarHostState = remember { SnackbarHostState() }
+
+                LaunchedEffect(key1 = lifecycle) {
+                    repeatOnLifecycle(state = Lifecycle.State.STARTED) {
+                        EventBus.events.collect { event ->
+                            if (event is Event.Snackbar) {
+                                coroutineScope.launch {
+                                    snackbarHostState.showSnackbar(event.messsage)
+                                }
+                            }
+                        }
+                    }
+                }
+                Surface {
+                    CarScreen(snackbarHostState)
+                }
             }
         }
     }
