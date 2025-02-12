@@ -1,0 +1,515 @@
+{
+  "Models": [
+    {
+      "id": 1,
+      "title": "Ford Aspire",
+      "make": "Ford",
+      "description": "Une voiture compacte et économique conçue pour la conduite quotidienne avec une faible consommation de carburant.",
+      "imageUrl": "https://imgd.aeplcdn.com/1280x720/cw/ec/19421/Ford-Aspire-Right-Front-Three-Quarter-74345.jpg?wm=0&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Ford Bronco",
+      "make": "Ford",
+      "description": "Un SUV légendaire conçu pour l'aventure et les terrains difficiles, offrant robustesse et performance.",
+      "imageUrl": "https://fr.ford.ca/is/imageUrl/content/dam/vdm_ford/live/en_ca/ford/nameplate/bronco/2025/collections/dm/24_frd_bro_bigb_2d_rcrd_dr34.tif?croppathe=1_4x3&wid=900"
+    },
+    {
+      "id": 3,
+      "title": "Ford C-Max",
+      "make": "Ford",
+      "description": "Un véhicule hybride et hybride rechargeable offrant une grande efficacité énergétique et une flexibilité d'utilisation.",
+      "imageUrl": "https://i.gaw.to/content/photos/03/01/030153_La_Ford_C-MAX_a_7_places_la_bonne_nouvelle_venant_d_Europe.jpg?460x287"
+    },
+    {
+      "id": 4,
+      "title": "Ford Edge",
+      "make": "Ford",
+      "description": "Un SUV intermédiaire combinant technologie avancée, design élégant et conduite confortable.",
+      "imageUrl": "https://inv.assets.sincrod.com/ChromeColorMatch/us/WHITE_cc_2020FOS150021_01_1280_R3.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ford Escape",
+      "make": "Ford",
+      "description": "Un SUV compact qui allie économie de carburant, sécurité avancée et technologie intuitive.",
+      "imageUrl": "https://www.motortrend.com/files/66958f2a84472500088a7e27/18-2025-ford-escape-phev-front-view.jpg?w=768&width=768&q=75&format=webp"
+    },
+    {
+      "id": 6,
+      "title": "Ford Excursion",
+      "make": "Ford",
+      "description": "Un SUV puissant et spacieux conçu pour les longs trajets et le transport de grandes familles.",
+      "imageUrl": "https://s1.cdn.autoevolution.com/imageUrls/news/gallery/all-new-2025-ford-excursion-is-merely-wishful-thinking-would-fight-suburban-and-yukon-xl_6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Ford Expedition",
+      "make": "Ford",
+      "description": "Un SUV grand format idéal pour les voyages en famille, combinant puissance et confort haut de gamme.",
+      "imageUrl": "https://imageUrls.app.ridemotive.com/z9e2ojhf8p381wcxdcqt6vr8euqe"
+    },
+    {
+      "id": 8,
+      "title": "Ford Explorer",
+      "make": "Ford",
+      "description": "Un SUV polyvalent apprécié pour ses fonctionnalités de sécurité avancées et son habitacle spacieux.",
+      "imageUrl": "https://imageUrls.app.ridemotive.com/ieg9azqyl6kuj9dl5zo54kvbl1sn"
+    },
+    {
+      "id": 9,
+      "title": "Ford F-150",
+      "make": "Ford",
+      "description": "Le camion le plus vendu aux États-Unis, réputé pour sa robustesse, sa capacité de remorquage et ses performances exceptionnelles.",
+      "imageUrl": "https://www.frontrunneroutfitters.com/media/catalog/product/cache/d4dac59584c08d49306c6dda7f8649da/f/1/f150_slimsport_001_1.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Ford Fiesta",
+      "make": "ford",
+      "description": "Une citadine compacte et économique, prisée à l’international.",
+      "imageUrl": "https://imageUrls.caradisiac.com/logos-ref/modele/modele--ford-fiesta-6/S0-modele--ford-fiesta-6.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Ford Focus",
+      "make": "ford",
+      "description": "Une voiture pratique et économe en carburant avec une touche sportive.",
+      "imageUrl": "https://smartcdn.gprod.postmedia.digital/driving/wp-content/uploads/2015/06/img_4310.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Ford Freestyle",
+      "make": "ford",
+      "description": "Un crossover alliant la polyvalence d'un SUV au confort d'une berline.",
+      "imageUrl": "https://example.com/imageUrls/ford_freestyle.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Ford Fusion",
+      "make": "ford",
+      "description": "Une berline de taille moyenne qui équilibre efficacité et luxe.",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/imageUrls/12q1/435356/2013-ford-fusion-future-cars-car-and-driver-photo-447393-s-original.jpg?resize=640:*"
+    },
+    {
+      "id": 14,
+      "title": "Ford Galaxy",
+      "make": "ford",
+      "description": "Un monospace spacieux conçu pour les grandes familles et les longs trajets confortables.",
+      "imageUrl": "https://imageUrls.prismic.io/carwow/e0eeb36b-e455-4c3c-ad9e-a5f5b0b791e1_LHD+Ford+Galaxy+2020+exterior-4.jpg?auto=format&cs=tinysrgb&fit=crop&q=60&w=750"
+    },
+    {
+      "id": 15,
+      "title": "Ford Kuga",
+      "make": "ford",
+      "description": "Un SUV compact élégant et pratique, disponible en version hybride.",
+      "imageUrl": "https://mauto.ma/_next/imageUrl?url=https%3A%2F%2Fcdn.mauto.ma%2Fnewmauto%2FimageUrls%2FimageUrls-gallery-cars%2Fford-kuga-gallery_7.png&w=1080&q=75"
+    },
+    {
+      "id": 16,
+      "title": "Ford Maverick",
+      "make": "ford",
+      "description": "Un petit pick-up efficace conçu pour une utilisation polyvalente en ville.",
+      "imageUrl": "https://imageUrls.app.ridemotive.com/tg5op5pa97wxh8p2g4qot7i1qpv8"
+    },
+    {
+      "id": 17,
+      "title": "Ford Mustang",
+      "make": "ford",
+      "description": "Une voiture de sport emblématique, célèbre pour ses performances et son design agressif.",
+      "imageUrl": "https://cars.usnews.com/static/imageUrls/Auto/izmo/i159615054/2022_ford_mustang_angularfront.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Renault Clio 5",
+      "make": "renault",
+      "description": "Une voiture compacte populaire, appréciée pour son prix abordable et son design moderne.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Renault_Clio_V_Genf_2019_1Y7A5590.jpg/800px-Renault_Clio_V_Genf_2019_1Y7A5590.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Renault Clio Esprit Alpine",
+      "make": "renault",
+      "description": "Une version dynamique de la Clio, combinant accessibilité et design sportif.",
+      "imageUrl": "https://cdn-drivek-datak.motork.net/configurator-imgs/cars/fr/Original/RENAULT/CLIO/42849_BERLINE-A-HAYON-5-PORTES/renault-clio-front-view.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Renault Mégane",
+      "make": "renault",
+      "description": "Une berline compacte au design épuré et aux équipements modernes.",
+      "imageUrl": "https://www.wizicar.com/wp-content/uploads/2018/10/renault-megane-1024x637.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Renault Captur",
+      "make": "renault",
+      "description": "Un SUV compact au look audacieux et au design moderne.",
+      "imageUrl": "https://www.wandaloo.com/files/2019/07/RENAULT-Captur-2020-Neuve-Maroc-09.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Renault Kadjar",
+      "make": "renault",
+      "description": "Un SUV de taille moyenne offrant confort et praticité pour les familles.",
+      "imageUrl": "https://www.zylinders.com/photos/Renault%20Kadjar.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Renault Talisman",
+      "make": "renault",
+      "description": "Une berline haut de gamme offrant technologie avancée et confort supérieur.",
+      "imageUrl": "https://www.wandaloo.com/files/2015/07/Renault-Talisman-2016-neuve-Maroc.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Renault Koleos",
+      "make": "renault",
+      "description": "Un SUV spacieux et élégant conçu pour les longs trajets et le confort optimal.",
+      "imageUrl": "https://photos.auto-moto.com/32/2024/04/photos/353067/zoom-renault-qm6-koleos.webp"
+    },
+    {
+      "id": 25,
+      "title": "Renault Zoe",
+      "make": "renault",
+      "description": "Une citadine 100 % électrique offrant une excellente autonomie et une grande efficacité énergétique.",
+      "imageUrl": "https://cdn.futura-sciences.com/buildsv6/imageUrls/wide1920/a/6/5/a65c6df1b5_50151429_renault-zoe-2019-main.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Renault Twingo",
+      "make": "renault",
+      "description": "Une petite voiture urbaine agile et pratique avec un design unique.",
+      "imageUrl": "https://img.20mn.fr/ugfsb364QBiH3oXMaFhE5Ck/1444x920_la-future-twingo-electrique-est-au-salon-de-bruxelles-avec-un-interieur-proche-de-la-production"
+    },
+    {
+      "id": 27,
+      "title": "Renault Duster",
+      "make": "renault",
+      "description": "Un SUV compact robuste et abordable, idéal pour les trajets hors route.",
+      "imageUrl": "https://cdn.wheel-size.com/automobile/body/renault-duster-2020-2023-1654598583.719422.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Renault Arkana",
+      "make": "renault",
+      "description": "Un SUV coupé au design sportif, disponible avec des motorisations hybrides.",
+      "imageUrl": "https://assetsr.keepeek.com/medias/domain5781/media104966/1489830-468dii8m07-rmediumx2.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Renault Scenic",
+      "make": "renault",
+      "description": "Un monospace compact offrant confort et praticité pour les familles.",
+      "imageUrl": "https://www.leak.pt/wp-content/uploads/2024/11/Renault_Scenic_esprit.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Renault Grand Scenic",
+      "make": "renault",
+      "description": "Une version plus spacieuse du Scenic, idéale pour les grandes familles.",
+      "imageUrl": "https://renault.rousseau-auto.com/wp-content/uploads/2021/04/Renault-Grand-Scenic-Rouge.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Renault Laguna Coupé",
+      "make": "renault",
+      "description": "Un coupé élégant et confortable, apprécié pour sa fiabilité.",
+      "imageUrl": "https://www.latribuneauto.com/media/cache/resolve/vehicule_slider/photos/RENAULT/Laguna%20Coupe/RENA-LAGC-CO-12-36306/Renault-Laguna%20Coupe-Copyright-Renault-01.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Renault Espace Nuevo",
+      "make": "renault",
+      "description": "Un monospace haut de gamme avec un intérieur moderne et spacieux.",
+      "imageUrl": "https://www.renault-tortosa.es/media/vehiculo_nuevo/renault/renault-espace-frontal-lateral.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Renault Kangoo",
+      "make": "renault",
+      "description": "Un utilitaire compact polyvalent, adapté au transport de passagers et de marchandises.",
+      "imageUrl": "https://cdn.group.renault.com/ren/ma/kangoo-kfk/renault-kangoo3-ph1-hero-zone-desktop-001.jpg.ximg.small.jpg/b4051a05fc.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Renault Trafic",
+      "make": "renault",
+      "description": "Un fourgon de taille moyenne offrant fiabilité et praticité pour les professionnels.",
+      "imageUrl": "https://be.media.renaultgroup.com/wp-content/uploads/2024/01/0f9ae6ed2612dca1eb425b0dc3bdb147-l.jpeg"
+    },
+    {
+      "id": 35,
+      "title": "Renault Master",
+      "make": "renault",
+      "description": "Un grand utilitaire conçu pour le transport de charges lourdes.",
+      "imageUrl": "https://journalauto.com/wp-content/uploads/2024/05/nouveau-renault-master.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Renault Alpine A110",
+      "make": "renault",
+      "description": "Un coupé sportif léger offrant des performances dynamiques exceptionnelles.",
+      "imageUrl": "https://media.renault.ch/__/150629.72a1d577.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Renault Fluence",
+      "make": "renault",
+      "description": "Une berline compacte alliant confort et efficacité énergétique.",
+      "imageUrl": "https://www.autofacil.es/wp-content/uploads/2021/05/2012-11-02_IMG_2012-11-02_101257_renault39265globalen-scaled.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Renault Logan",
+      "make": "renault",
+      "description": "Une berline économique reconnue pour sa fiabilité et son prix abordable.",
+      "imageUrl": "https://www.renault.ga/CountriesData/Gabon/imageUrls/cars/LoganNouveau/Boxes/DesignModerne/00041330_ig_w800_h450.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Renault Lodgy",
+      "make": "renault",
+      "description": "Un monospace compact conçu pour les familles, offrant confort et praticité.",
+      "imageUrl": "https://www.renault.ga/CountriesData/Gabon/imageUrls/cars/LodgyRenault/MediaGallery/Media9_959x525_ig_w1200_h675.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Renault Kwid",
+      "make": "renault",
+      "description": "Un petit crossover abordable avec un design moderne et dynamique.",
+      "imageUrl": "https://www.bladi.net/img/logo/arton42025.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Renault Triber",
+      "make": "renault",
+      "description": "Un monospace compact offrant modularité et espace à prix accessible.",
+      "imageUrl": "https://www.ppsrenault.com/uploads/gallery/1716964424_03.jpg"
+    },
+    {
+      "id": 42,
+      "title": "BMW Série 3",
+      "make": "bmw",
+      "description": "Une berline compacte haut de gamme réputée pour ses performances et son confort.",
+      "imageUrl": "https://imgd.aeplcdn.com/1920x1080/cw/ec/37067/BMW-3-Series-Exterior-167583.jpg?wm=0&q=80&q=80"
+    },
+    {
+      "id": 43,
+      "title": "BMW Série 5",
+      "make": "bmw",
+      "description": "Une berline de luxe alliant performance, élégance et technologies avancées.",
+      "imageUrl": "https://www.autoblog.com/.imageUrl/t_share/MjA5MTkxNzIxNjA1MjExNzYw/imageUrl-placeholder-title.jpg"
+    },
+    {
+      "id": 44,
+      "title": "BMW Série 7",
+      "make": "bmw",
+      "description": "Une berline haut de gamme offrant un confort exceptionnel et des technologies de pointe.",
+      "imageUrl": "https://vehicle-imageUrls.dealerinspire.com/a0dd-18003204/WBA33EJ08SCT30676/a67e0f1b807c2cd4f6449029f7fd950e.jpg"
+    },
+    {
+      "id": 45,
+      "title": "BMW X1",
+      "make": "bmw",
+      "description": "Un SUV compact au design dynamique, idéal pour la ville et les longs trajets.",
+      "imageUrl": "https://media.ed.edmunds-media.com/bmw/x1/2025/oem/2025_bmw_x1_4dr-suv_m35i_fq_oem_1_1280.jpg"
+    },
+    {
+      "id": 46,
+      "title": "BMW X3",
+      "make": "bmw",
+      "description": "Un SUV de taille moyenne combinant confort, technologie et sportivité.",
+      "imageUrl": "https://cdn.motor1.com/imageUrls/mgl/40EePk/s3/bmw-x3-2024-mit-bmw-m-performance-parts.jpg"
+    },
+    {
+      "id": 47,
+      "title": "BMW X5",
+      "make": "bmw",
+      "description": "Un SUV de luxe offrant un équilibre parfait entre performances et espace intérieur.",
+      "imageUrl": "https://di-uploads-pod10.dealerinspire.com/bmwofelcajon/uploads/2024/12/2025_bmw_x5-m-1024x684.jpeg"
+    },
+    {
+      "id": 48,
+      "title": "BMW X7",
+      "make": "bmw",
+      "description": "Un SUV haut de gamme combinant espace, élégance et technologies avancées.",
+      "imageUrl": "https://vehicle-imageUrls.dealerinspire.com/6919-110006829/5UX23EM0XS9W39698/3447e842a735c8f9e174449da012e527.jpg"
+    },
+    {
+      "id": 49,
+      "title": "BMW Z4",
+      "make": "bmw",
+      "description": "Un cabriolet sportif au design séduisant et aux performances dynamiques.",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/imageUrls/2025-bmw-z4-m40i-6mt-251-66f43f8382990.jpg?crop=0.637xw:0.477xh;0.114xw,0.380xh&resize=1200:*"
+    },
+    {
+      "id": 50,
+      "title": "BMW i3",
+      "make": "bmw",
+      "description": "Une voiture compacte électrique au design futuriste et à l'autonomie optimisée.",
+      "imageUrl": "https://topelectricsuv.com/wp-content/uploads/2024/03/BMW-Vision-Neue-Klasse-front-three-quarter-live-imageUrl.jpg"
+    },
+    {
+      "id": 51,
+      "title": "BMW i8",
+      "make": "bmw",
+      "description": "Un coupé hybride rechargeable au design avant-gardiste et aux performances électrisantes.",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/imageUrls/bmw-vision-m-next-2-1561402880.jpg"
+    },
+    {
+      "id": 52,
+      "title": "BMW M3",
+      "make": "bmw",
+      "description": "Une version haute performance de la Série 3, conçue pour les passionnés de conduite.",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/imageUrls/2025-bmw-m3-110-66562ddceaf59.jpg?crop=0.824xw:0.618xh;0.0737xw,0.274xh&resize=2048:*"
+    },
+    {
+      "id": 53,
+      "title": "BMW M5",
+      "make": "bmw",
+      "description": "Une berline sportive de luxe combinant performances extrêmes et raffinement.",
+      "imageUrl": "https://cdn-drivek-datak.motork.net/configurator-imgs/cars/fr/Original/BMW/M5/44780_SALOON-4-DOORS/bmw-m5-front-view.jpg"
+    },
+    {
+      "id": 53,
+      "title": "BMW M8",
+      "make": "bmw",
+      "description": "Un coupé haut de gamme offrant des performances exceptionnelles et une technologie de pointe.",
+      "imageUrl": "https://www.bmw.ma/content/dam/bmw/common/all-models/m-series/m8-coupe/2022/onepager/bmw-m8-coupe-onepager-sp-desktop.jpg"
+    },
+    {
+      "id": 54,
+      "title": "BMW Série 2",
+      "make": "bmw",
+      "description": "Une voiture compacte au design sportif et à la conduite engageante.",
+      "imageUrl": "https://stimg.cardekho.com/imageUrls/carexteriorimageUrls/930x620/BMW/2-Series/10577/1689667139509/front-left-side-47.jpg"
+    },
+    {
+      "id": 55,
+      "title": "BMW Série 4",
+      "make": "bmw",
+      "description": "Un coupé de taille moyenne combinant luxe et sensations de conduite.",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/imageUrls/2025-bmw-m440i-coupe-front-three-quarters-65b931d35bf39.jpg?crop=0.728xw:0.615xh;0.176xw,0.197xh&resize=1200:*"
+    },
+    {
+      "id": 56,
+      "title": "BMW Série 6",
+      "make": "bmw",
+      "description": "Une voiture de grand tourisme axée sur le confort et les performances raffinées.",
+      "imageUrl": "https://www.bmw-tunisia.com/content/dam/bmw/common/all-models/6-series/gran-turismo/2021/highlights/bmw-6-series-gran-turismo-gallery-imageUrl-individual-02_1920.jpg.asset.1628852738385.jpg"
+    },
+    {
+      "id": 57,
+      "title": "BMW Série 8",
+      "make": "bmw",
+      "description": "Un coupé haut de gamme au design audacieux et aux fonctionnalités avancées.",
+      "imageUrl": "https://cdn-drivek-datak.motork.net/configurator-imgs/cars/it/Original/BMW/SERIE-8/38632_COUPE-4-PORTE/bmw-serie-8-grand-coupe-2019-front-side.jpg"
+    },
+    {
+      "id": 58,
+      "title": "BMW X2",
+      "make": "bmw",
+      "description": "Un SUV compact alliant dynamisme et design audacieux.",
+      "imageUrl": "https://cdn-drivek-datak.motork.net/configurator-imgs/cars/fr/Original/BMW/X2/43068_SUV-VP-5-PORTES/bmw-x2-front-view.jpg"
+    },
+    {
+      "id": 59,
+      "title": "BMW X4",
+      "make": "bmw",
+      "description": "Un SUV coupé de luxe mettant l'accent sur le style et la performance.",
+      "imageUrl": "https://www.bmw.ci/content/dam/bmw/common/all-models/x-series/x4/2021/onepager/bmw-x4-onepager-vc-mpa-dynamics.jpg"
+    },
+    {
+      "id": 60,
+      "title": "BMW X6",
+      "make": "bmw",
+      "description": "Un SUV coupé haut de gamme au design imposant et aux performances musclées.",
+      "imageUrl": "https://imageUrls.caradisiac.com/logos/5/6/7/6/275676/S8-le-bmw-x6-restyle-2023-a-partir-de-96-650eur-200710.jpg"
+    },
+    {
+      "id": 61,
+      "title": "Mercedes Classe C",
+      "make": "mercedes",
+      "description": "Une berline premium compacte combinant luxe et dynamisme.",
+      "imageUrl": "https://i.gaw.to/vehicles/photos/40/39/403926-2025-mercedes-benz-c-class.jpg"
+    },
+    {
+      "id": 62,
+      "title": "Mercedes Classe E",
+      "make": "mercedes",
+      "description": "Une berline de luxe intermédiaire réputée pour son confort et ses innovations technologiques.",
+      "imageUrl": "https://www.leguideauto.ma/contents/cars/pictures/2021/12/large/Pmjx9KAurtMwFwaU5Nl6tj7YjbXIT9m1xUjKtG1r.webp"
+    },
+    {
+      "id": 63,
+      "title": "Mercedes Classe S",
+      "make": "mercedes",
+      "description": "La berline phare de Mercedes, combinant raffinement, innovation et confort ultime.",
+      "imageUrl": "https://i.gaw.to/vehicles/photos/40/35/403538-2024-mercedes-benz-s-class.jpg"
+    },
+    {
+      "id": 64,
+      "title": "Mercedes GLA",
+      "make": "mercedes",
+      "description": "Un SUV compact combinant sportivité et design moderne.",
+      "imageUrl": "https://assets.autoweek.nl/m/wtkyub4byiyp_800.jpg"
+    },
+    {
+      "id": 65,
+      "title": "Mercedes GLC",
+      "make": "mercedes",
+      "description": "Un SUV intermédiaire premium offrant luxe et polyvalence.",
+      "imageUrl": "https://www.edmunds.com/assets/m/cs/bltc9c240363870ced7/674f4dadb5ed6214cc41e39a/2025-mercedes-glc-350e-f34.jpg"
+    },
+    {
+      "id": 66,
+      "title": "Mercedes GLE",
+      "make": "mercedes",
+      "description": "Un SUV premium alliant confort, espace et performances impressionnantes.",
+      "imageUrl": "https://i.gaw.to/vehicles/photos/40/23/402337-2021-mercedes-benz-gle.jpg?1024x640"
+    },
+    {
+      "id": 67,
+      "title": "Mercedes GLS",
+      "make": "mercedes",
+      "description": "Un SUV de luxe grand format conçu pour le confort et la performance.",
+      "imageUrl": "https://www.actu-automobile.com/wp-content/uploads/2024/08/mercedes-benz-gls-face.jpg.webp"
+    },
+    {
+      "id": 68,
+      "title": "Mercedes Classe A",
+      "make": "mercedes",
+      "description": "Une berline compacte haut de gamme au design moderne et aux fonctionnalités avancées.",
+      "imageUrl": "https://drivingcustom.fr/wp-content/uploads/2022/11/mercedes-classe-a-noir-satin.jpg"
+    },
+    {
+      "id": 69,
+      "title": "Mercedes Classe B",
+      "make": "mercedes",
+      "description": "Un monospace compact axé sur le confort et la praticité.",
+      "imageUrl": "https://mercedes-chevalley.ch/mediasecure-getphoto?dossier=sections&photo=mercedes_benz_b_class_w247_exterior_hotspot_3302x1858_09_2022_227788020.webp"
+    },
+    {
+      "id": 70,
+      "title": "Mercedes CLA",
+      "make": "mercedes",
+      "description": "Un coupé quatre portes compact au design raffiné et dynamique.",
+      "imageUrl": "https://superauto.wpcdn.pl/offer_photos/thumb/875x600_fit_in_63552638fbb10974a569ba9ceae9cddb.jpg"
+    },
+    {
+      "id": 71,
+      "title": "Mercedes CLS",
+      "make": "mercedes",
+      "description": "Un coupé quatre portes élégant associant raffinement et performances.",
+      "imageUrl": "https://www.leguideauto.ma/contents/cars/pictures/2021/12/large/hUtF5GwcIIoGrkQTsWmD3K6sLiWUk2Z4psymPA7g.webp"
+    },
+    {
+      "id": 72,
+      "title": "Mercedes Classe G",
+      "make": "mercedes",
+      "description": "Un SUV tout-terrain emblématique combinant robustesse et luxe.",
+      "imageUrl": "https://i.gaw.to/vehicles/photos/08/56/085675_2018_mercedesbenz_Classe_G.jpg?640x400"
+    }
+  ]
+}

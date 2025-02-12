@@ -29,7 +29,7 @@ class CarViewModel @Inject constructor(
             _state.update {
                 it.copy(isLoading = !isRefreshing, isRefreshing = isRefreshing)
             }
-            carRepository.getCars().onRight { cars ->
+            carRepository.getCarsFromLocalJson().onRight { cars ->
                 _state.update {
                     it.copy(
                         cars = cars

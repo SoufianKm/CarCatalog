@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -34,7 +35,7 @@ fun CarCard(
     Card(
         modifier = modifier,
         shape = RoundedCornerShape(10.dp),
-        elevation = CardDefaults.cardElevation(2.dp),
+        elevation = CardDefaults.cardElevation(4.dp),
         colors = CardDefaults.cardColors(containerColor = Color.White)
     ) {
         Box(
@@ -45,20 +46,24 @@ fun CarCard(
                 contentDescription = car.title,
                 modifier = modifier
                     .fillMaxSize()
+                    .height(250.dp)
                     .clip(RoundedCornerShape(10.dp)),
-                contentScale = ContentScale.FillBounds
+                contentScale = ContentScale.Crop
             ) {
-                it.error(placeholder(R.drawable.placeholder)).placeholder(R.drawable.placeholder)
+                it.error(placeholder(R.drawable.carplaceholder))
+                    .placeholder(R.drawable.carplaceholder)
                     .load(car.imageUrl)
             }
             Box(
                 modifier = modifier
-                    .fillMaxSize()
+                    .fillMaxWidth()
                     .height(200.dp)
                     .align(Alignment.BottomStart)
                     .background(
                         Brush.verticalGradient(
-                            colors = listOf(Color.Transparent, Color.Black.copy(alpha = 0.7f))
+                            colors = listOf(Color.Transparent, Color.Black.copy(alpha = 1f)),
+                            startY = 200f,
+                            endY = 700f
                         )
                     )
             )
@@ -70,14 +75,14 @@ fun CarCard(
             ) {
                 Text(
                     text = car.title,
-                    style = MaterialTheme.typography.titleMedium,
+                    style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold,
                     color = Color.White,
                     modifier = modifier.padding(bottom = 4.dp)
                 )
                 Text(
                     text = car.description,
-                    style = MaterialTheme.typography.bodySmall,
+                    style = MaterialTheme.typography.bodyMedium,
                     color = Color.White,
                 )
             }
